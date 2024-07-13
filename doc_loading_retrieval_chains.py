@@ -9,7 +9,7 @@ from langchain.chains import create_retrieval_chain
 
 OPENAI_API_KEY = ""
 
-loader = TextLoader("./LangChain Tutorial/state_of_the_union_2022.txt", encoding='UTF-8')
+loader = TextLoader("./state_of_the_union_2022.txt", encoding='UTF-8')
 documents = loader.load()
 # print(documents)
 
